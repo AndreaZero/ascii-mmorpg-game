@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible problem in the prototype.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the actual and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include camera mode, controls and location if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Godot version, OS, GPU, rendering backend and commit if known.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots and logs
+      description: Attach useful evidence. Remove private data from logs.

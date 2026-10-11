@@ -1,0 +1,29 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+*.import
+/build/
+/dist/
+/export.cfg
+/export_credentials.cfg
+
+# Optional local editor tools and machine settings
+/addons/
+/override.cfg
+/@icons picker.html
+/.local/
+/.mcp.json
+/.godot_ai*
+/.vscode/
+/.idea/
+
+# Credentials, logs and operating-system files
+.env
+.env.*
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+Thumbs.db
+.DS_Store

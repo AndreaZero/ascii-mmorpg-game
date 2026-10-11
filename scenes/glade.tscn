@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bx2eyojdpjpfe"]
+
+[ext_resource type="Script" uid="uid://djg76pi5g5m02" path="res://scripts/glade.gd" id="1"]
+
+[node name="Blackwater" type="Node" unique_id=1339655060]
+script = ExtResource("1")
+
+[node name="Node" type="Node" parent="." unique_id=312732301]

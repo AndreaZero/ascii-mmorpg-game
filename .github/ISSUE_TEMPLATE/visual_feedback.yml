@@ -1,0 +1,29 @@
+name: Visual feedback or focused improvement
+description: Help refine readability, motion and atmosphere.
+title: "[Feedback] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Character and animation
+        - Glyph readability
+        - Environment and lighting
+        - Camera and controls
+        - Performance
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: What could improve?
+      description: Describe a specific observation and the result you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Visual context
+      description: Include screenshots, camera angle, glyph scale, grass density and hardware where relevant.
